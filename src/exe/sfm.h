@@ -31,6 +31,7 @@
 
 namespace colmap {
 
+int RunIncrementalModelRefiner(int argc, char** argv);
 int RunAutomaticReconstructor(int argc, char** argv);
 int RunBundleAdjuster(int argc, char** argv);
 int RunColorExtractor(int argc, char** argv);
