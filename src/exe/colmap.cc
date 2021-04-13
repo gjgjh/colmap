@@ -118,6 +118,7 @@ int main(int argc, char** argv) {
   commands.emplace_back("image_undistorter", &RunImageUndistorter);
   commands.emplace_back("image_undistorter_standalone",
                         &RunImageUndistorterStandalone);
+  commands.emplace_back("incremental_model_refiner", &RunIncrementalModelRefiner);
   commands.emplace_back("mapper", &RunMapper);
   commands.emplace_back("matches_importer", &RunMatchesImporter);
   commands.emplace_back("model_aligner", &RunModelAligner);
